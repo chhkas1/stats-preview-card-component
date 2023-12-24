@@ -1,0 +1,64 @@
+body{
+    padding: 3% 15%;
+}
+.container{
+    border: 1px solid;
+    padding: 8% 10%;
+    background-color: hsl(233, 47%, 7%);
+}
+.sector{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid;
+}   
+.field{
+    padding: 15% 10%;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    background-color: hsl(244, 38%, 16%);
+}
+.get{
+    font-size: 27px;
+    font-weight: 800;
+    color:  hsl(0, 0%, 100%);
+}
+#get2{
+    color: hsl(277, 64%, 61%);
+}
+.dis{
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.dis1{
+    margin-top: 20px;
+}
+.log{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-top: 50px;
+}
+.fly{
+    font-weight: 700;
+    font-size: 15px;
+    color:  hsl(0, 0%, 100%);
+}
+#fly2{
+    font-size: 5px;
+    margin-top: 3px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+/* .img{
+    width: 100%;
+    height: 300px;
+} */
+.photo{
+    background-image: url("./images/image-header-desktop.jpg");
+    background-size: contain;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.photo  .img{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 100%, 25%, 0.596);
+}
